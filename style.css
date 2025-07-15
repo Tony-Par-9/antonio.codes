@@ -2,18 +2,20 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+.logo-container {
+    justify-content: flex-start;
+    width: 180px;
+    display: flex;
+}
+
 .logo {
-    width: 150px;
+    width: 300px;
     height: auto;
-    border: solid 2px black;
 }
 
 .icon { 
     width: 30px;
     height: auto;
-    border: solid 2px black;
-    flex: 1;
-    justify-content: flex-end;
 }
 
 .header-container {
@@ -21,7 +23,7 @@
     justify-content: space-between;
     align-items: center;
     border: solid 2px black;
-    padding: 8px;
+    padding: 10px;
     flex-wrap: wrap;
 }
 
@@ -29,17 +31,39 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 100px;
-    border: solid 2px black;
     margin: 0;
     padding: 0;
 }
 
+.socials {
+    display: flex;
+    gap: 20px;
+    width: 180px;
+    justify-content: flex-end;
+}
+
+li {
+    border: solid 2px black;
+    padding: 2px;
+}
+
+li:hover {
+    background-color: yellow;
+    font-weight: 800;
+}
+
+li:active {
+    background-color: greenyellow;
+}
+
 a {
     text-decoration: none;
+    color: black;
 }
 
 nav {
     display: flex;
     justify-content: center;
+    flex: 1;
 }
 
