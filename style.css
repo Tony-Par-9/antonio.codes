@@ -3,25 +3,33 @@
 }
 
 .logo {
-    width: 300px;
+    width: 150px;
     height: auto;
+    border: solid 2px black;
 }
 
-.linkedin{
+.icon { 
     width: 30px;
     height: auto;
+    border: solid 2px black;
+    flex: 1;
+    justify-content: flex-end;
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: solid 2px black;
+    padding: 8px;
+    flex-wrap: wrap;
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    gap: 16px;
+    gap: 100px;
+    border: solid 2px black;
     margin: 0;
     padding: 0;
 }
@@ -29,3 +37,9 @@ ul {
 a {
     text-decoration: none;
 }
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
